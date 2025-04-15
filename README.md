@@ -1,2 +1,2 @@
 # Chess-Game
-This shi is banger than Magnus Carlsen's whole career
+This shi is better than Magnus Carlsen's whole career
