@@ -13,7 +13,7 @@ text_position = (800, 500)
 timer = pygame.time.Clock()
 fps = 60
 
-#Game variables and images
+#Game variables and images (I made it by myself bitch)
 
 white_pieces = ['rook', 'knight', 'bishop', 'king', 'queen', 'bishop', 'knight', 'rook',
                 'pawn', 'pawn', 'pawn', 'pawn', 'pawn', 'pawn', 'pawn', 'pawn']
@@ -25,7 +25,7 @@ black_locations = [(0, 7), (1, 7), (2, 7), (3, 7), (4, 7), (5, 7), (6, 7), (7, 7
                   (0, 6), (1, 6), (2, 6), (3, 6), (4, 6), (5, 6), (6, 6), (7, 6),]
 captured_pieces_white = []
 captured_pieces_black = []
-# 0(white turn no selection): 1(whites turn piece selected): 2(black turn no selection): 3(black turn piece selected)
+# 0(white turn no selection): 1(whites turn piece selected): 2(nigga turn no selection): 3(nigga turn piece selected)
 turn_step = 0
 selection = 100 #Selection pieces
 valid_moves = []
@@ -390,7 +390,7 @@ while run:
                     turn_step = 2
                     selection = 100
                     valid_moves = []
-            if turn_step > 1:           #WHITE LOCATIONS
+            if turn_step > 1:           #NIGGA LOCATIONS
                 if click_coords == (8, 8) or click_coords == (9, 8):
                     winner = 'white'
                 if click_coords in black_locations:
