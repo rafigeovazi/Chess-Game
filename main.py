@@ -13,8 +13,6 @@ text_position = (800, 500)
 timer = pygame.time.Clock()
 fps = 60
 
-#Game variables and images (I made it by myself bitch)
-
 white_pieces = ['rook', 'knight', 'bishop', 'king', 'queen', 'bishop', 'knight', 'rook',
                 'pawn', 'pawn', 'pawn', 'pawn', 'pawn', 'pawn', 'pawn', 'pawn']
 white_locations = [(0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (7, 0),
